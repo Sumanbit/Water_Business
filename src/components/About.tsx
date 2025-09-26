@@ -1,5 +1,6 @@
 import React from 'react';
 import { Award, Users, Droplets, Heart } from 'lucide-react';
+import photo from '../images/photo.jpg';
 
 const About = () => {
   const stats = [
@@ -59,8 +60,8 @@ const About = () => {
           <div className="relative">
             <img
               //src="https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=800"
-              src="src/images/photo.jpg
-              "
+             // src="src/images/photo.jpg"
+              src={photo}
               alt="Water treatment facility"
               className="rounded-2xl shadow-2xl"
             />
